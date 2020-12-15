@@ -18,7 +18,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/home',
-    component: Home
+    component: Home,
+    alias: '/'
   },
   {
     path: '/book',
