@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="wrapper">
       <a-menu v-model="current" mode="horizontal">
-        <a-menu-item key="home" @click="clickItem">图书管理系统</a-menu-item>
+        <a-menu-item key="home" @click="clickItem" class="menu-head">图书管理系统</a-menu-item>
         <a-menu-item key="book" @click="clickItem">图书管理</a-menu-item>
         <a-menu-item key="increase" @click="clickItem">新增图书</a-menu-item>
         <a-menu-item key="library" @click="clickItem">借阅信息管理</a-menu-item>
@@ -36,5 +36,10 @@ export default {
 </script>
 
 <style scoped>
-
+  .wrapper{
+    padding: 6px 0 6px 0;
+  }
+  .menu-head{
+    margin-left: 50px
+  }
 </style>
