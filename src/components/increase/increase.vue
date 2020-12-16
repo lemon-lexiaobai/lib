@@ -4,7 +4,6 @@
     <a-form-model
       ref="ruleForm"
       :model="form"
-      :form="form"
       :rules = "rules"
       :label-col="{span: 5}"
       :wrapper-col="{span: 12}"
