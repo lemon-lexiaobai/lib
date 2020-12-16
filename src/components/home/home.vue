@@ -33,8 +33,8 @@ export default {
 <style scoped>
   .wrapper{
     position: fixed;
-    top: 48px;
-    bottom: 0;
+    top: 60px;
+    bottom: 50px;
     left: 0;
     right: 0;
     display: flex;
